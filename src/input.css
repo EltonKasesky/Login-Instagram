@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-form {
+        @apply px-3 py-3 border border-gray-300 w-full rounded-sm bg-gray-50 text-placeholder;
+    }
+}

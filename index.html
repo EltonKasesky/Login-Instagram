@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="src/favicon/favicon.ico">
+    <title>Instagram</title>
+</head>
+<body>
+    <main class="flex justify-center items-center w-screen h-screen md:gap-10">
+        <section class="hidden md:block">
+            <div>
+                <img src="src/images/screenshot.png" alt="Instagram">
+            </div>
+        </section>
+        <section class="flex flex-col justify-start items-center font-Poppins w-90% mobile:w-350 mobile:justify-center">
+            <section id="main-content" class="flex flex-col justify-center items-center w-full mobile:p-8 mobile:border mobile:border-gray-300">
+                <div class="flex justify-center w-full">
+                    <img class="mt-4 mb-10" src="src/images/logo.png" alt="Logo">
+                </div>
+
+                <div class="w-full">
+                    <form class="flex flex-col items-center gap-2" 
+                        action="#" 
+                        method="post"
+                    >
+                        <input class="input-form"
+                            type="text" 
+                            name="data-login" 
+                            id="data-login" 
+                            placeholder="Telefone, nome de usuário ou email"
+                        >
+                        <input class="input-form" 
+                            type="password" 
+                            name="password" 
+                            id="password" 
+                            placeholder="Senha"
+                        >
+                        <button class="text-center w-full text-sm bg-blue-button text-white font-normal py-1 rounded-md" 
+                            type="submit">
+                            Entrar
+                        </button>
+                    </form>
+                </div>
+
+                <div class="flex w-full justify-center items-center mt-3">
+                    <div class="flex justify-start w-10 mobile:w-32 bg-gray-300">
+                        <hr>
+                    </div>
+                    <div class=" flex justify-center w-10">
+                        <p class="text-or font-bold text-gray-500">OU</p>
+                    </div>
+                    <div class="flex justify-end w-10 mobile:w-32 bg-gray-300">
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center mt-7 gap-3">
+                    <a class="flex justify-center items-center gap-2 text-blue-facebook font-semibold text-facebook flex-wrap"
+                        href="#"
+                    >
+                        <i class="fa-brands fa-square-facebook text-lg"></i>
+                        <p class="hover:underline">Entrar com o Facebook</p>
+                    </a>
+
+                    <a class="text-sm text-blue-facebook hover:underline" 
+                        href="#">
+                        Esqueceu a senha?
+                    </a>
+                </div>
+            </section>
+
+            <section class="flex justify-center items-center w-full mt-3 mobile:w-350 py-5 mobile:border mobile:border-gray-300">
+                <div class="flex justify-center items-center">
+                    <a class="text-blue-link font-semibold text-create-account hover:underline" href="#">
+                        Criar nova conta
+                    </a>
+                </div>
+            </section>
+
+            <section class="flex flex-col justify-center items-center w-full mobile:w-350">
+                <p class="my-3 text-app">Obtenha o aplicativo</p>
+                <div class="flex flex-wrap justify-center gap-2">
+                    <img class="w-140 h-44" 
+                        src="src/images/googleplay.png" 
+                        alt="Google Play Dowload"
+                    >
+                    <img class="w-110 h-44" 
+                        src="src/images/microsoft.png" 
+                        alt="Microsoft Dowload"
+                    >
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
