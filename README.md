@@ -11,7 +11,7 @@ Este projeto é uma aplicação web desenvolvida para ser uma copia da pagina de
 - Abra o arquivo `index.html` no seu navegador.
 
 2. Abra o link abaixo, e veja o site hospedado na Vercel
-- Link: [`Pagina Login Instagram`](https://login-facebook-kasesky.vercel.app)
+- Link: [`Pagina Login Instagram`](https://login-instagram-kasesky.vercel.app)
 
 ## Funcionalidades
 1. Responvidade
