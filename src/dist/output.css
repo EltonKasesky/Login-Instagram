@@ -690,11 +690,6 @@ video {
   font-family: Poppins, sans-serif;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-app {
   font-size: 14px;
 }
@@ -707,6 +702,11 @@ video {
   font-size: 14px;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-or {
   font-size: 13px;
 }
@@ -714,11 +714,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -731,11 +726,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue-facebook {
@@ -763,10 +753,6 @@ video {
 }
 
 @media (min-width: 380px) {
-  .mobile\:block {
-    display: block;
-  }
-
   .mobile\:w-32 {
     width: 8rem;
   }

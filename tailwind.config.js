@@ -6,15 +6,11 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        //Google Play
         '135': '135px',
         '44': '44px',
-        //Microsoft
         '110': '110px',
-        //Form
         '350': '350px',
         '90%': '90%',
-        //Margin top mobile
         'top-mobile': '50px',
       },
       screens: {
